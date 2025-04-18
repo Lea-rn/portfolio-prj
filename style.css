@@ -1,0 +1,167 @@
+/* 1/- display : flex (obligatoire)   */
+
+/* 80% navbar  justify-content (space-between ==> tkhali espace mabinethom childrens ) */
+
+/* justify-content (space-around) ==> tkhali around  ; (space-envently) ==> */
+
+/* 80% with cards :: flex-direction :: row (x) /colmun (y)   */
+
+/* //// bech t7ot hom fe same niveau ==> align-items : center  */
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header  :::*/
+
+header{
+    background-color:#1C351D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+
+}
+header h5 {
+    font-size: 16px;
+    color: white;
+}
+
+.head-links a {
+    text-decoration: none;
+    margin: 0px 10px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+}
+
+
+.head-links a:hover {
+ color: black;
+}
+
+
+/* cover ::::::::::::::::*/
+
+
+.cover{
+    background-image: url("./images/cover2.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    background-attachment: fixed;
+}
+
+.cover h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.cover h1 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: #eeeff3;
+}
+
+.cover button {
+    background-color: #f0ba07;
+    color:black;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: ease 1s;
+    border: #1C351D 10px;
+}
+
+
+.cover button:hover {
+transform: scale(1.1,1.1);
+color: rgb(232, 231, 231);
+background-color: #1C351D;
+}
+
+
+.social-media-container{
+   
+    width: 20%;
+    font-size: 30px;
+  margin-top: 50px;
+}
+
+.social-media-container a {
+    margin: 0px 10px;
+    color: white;
+    transition: ease 1s;
+}
+
+
+.social-media-container a:hover {
+ transform: scale(2.1,2.1);
+ color: black;
+}
+
+
+/* :::::::::::::services :::::::::::*/
+
+.card-service{
+    border: solid 1px;
+    width: 25%;
+    height: 230px;
+    margin: 0px 20px;
+}
+
+.service-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-section{
+    border: solid 10px rgb(180, 19, 19);
+    height: 500px;
+    /* background-image: linear-gradient(to bottom left , white , black , blue , red); */
+}
+
+.service-section h1 {
+    text-align: center;
+}
+
+.card-service i {
+    font-size: 100px;
+
+   
+}
+
+.logo-container{
+    text-align: center;
+}
+
+.info{
+
+    margin-top: 60px;
+}
+
+.info h5 {
+    font-size: 18px;
+    text-align: start;
+}
+
+.details-container{
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-container a {
+    font-weight: 900;
+}
