@@ -8,9 +8,16 @@
 
 /* //// bech t7ot hom fe same niveau ==> align-items : center  */
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 body {
   margin: 0px;
   padding: 0px;
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
 }
 
 /* header  :::*/
@@ -210,12 +217,50 @@ margin-left: 120px;
 }
 
 /* /////////////////////// contact section ::::  //////////////// */
-
+.contact{
+  margin: 200px 0px;
+}
 .contact h1 {
     text-align: center;
     font-size: 50px;
 
 }
+
+.contact-card{
+  width: 20%;
+  margin: 0px 20px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 1px 1px 10px black;
+  transition: 1s;
+  cursor: pointer;
+  
+}
+
+.contact-card:hover {
+  transform: scale(1.1,1.1);
+}
+
+.contact-card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo-contact-container{
+  font-size: 6rem;
+  text-align: center;
+}
+.contact-card p {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+
+/* ////////////////////////////////////////////footer/////////////////////////////////////////////// */
 
 footer {
     background-color: #1c351d;
